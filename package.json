@@ -1,0 +1,23 @@
+{
+  "name": "irc-bot",
+  "version": "0.0.1",
+  "description": "an irc bot",
+  "main": "index.js",
+  "dependencies": {
+    "coffea": "^0.4.28"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kizuthemaid/irc-bot.git"
+  },
+  "author": "kizuthemaid",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kizuthemaid/irc-bot/issues"
+  },
+  "homepage": "https://github.com/kizuthemaid/irc-bot#readme"
+}
