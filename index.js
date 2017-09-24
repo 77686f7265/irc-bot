@@ -18,9 +18,9 @@ client.on('command', function (event) {
    }
 });
 
-client.on('message', function(message){
+client.on('message', function(event){
 	var date = new Date();
 	var formattedDate = date.getFullYear() + "-" + (date.getMonth() + 1) + "-" + date.getDate() + " " +  date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();
 
-	console.log(formattedDate + " : "+ message.message);
+	console.log('[' + formattedDate +']'+'[' + event.channel.getName() + '] ' + event.user.getNick() + ': ' + event.message);
 });
